@@ -39,8 +39,7 @@ private DrawerLayout drawer;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //UserExperior.init(getBaseContext(),true);
-
+        
         /*
         GETTING IMEI FROM USER
         */
@@ -124,11 +123,7 @@ private DrawerLayout drawer;
                     Toast.makeText(getApplicationContext(),"IDE"+identifier,Toast.LENGTH_SHORT).show();}
 
 
-//        try {
-//            UserExperior.setUserIdentifier(identifier);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+       
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
