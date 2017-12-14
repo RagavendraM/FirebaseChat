@@ -31,11 +31,6 @@ public class CardFragment extends Fragment {
          CUSTOM TAG FOR SCREEN
          */
         String Frag="CARDVIEW";
-//        try {
-//            UserExperior.setCustomTag(Frag);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
 
         RecyclerView recyclerView=(RecyclerView)inflater.inflate(R.layout.recyclerview,container,false);
 
