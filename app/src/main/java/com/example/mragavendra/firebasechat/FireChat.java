@@ -14,8 +14,5 @@ public class FireChat extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
-//        UserExperior.init(getBaseContext(),true);
-
-
     }
 }
